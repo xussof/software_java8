@@ -1,0 +1,11 @@
+---
+dependencies:
+  - src: https://github.com/xussof/software_software-properties-common
+    scm: git
+    version: master
+    name: xussof.software_software-properties-common
+
+  - src: https://github.com/xussof/software_ca-certificates
+    scm: git
+    version: master
+    name: xussof.software_ca-certificates

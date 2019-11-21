@@ -1,0 +1,18 @@
+- name: add webupd8 ppa
+  become: true
+  apt_repository:
+    repo: "{{ apt_repository }}"
+
+- name: update
+  become: true
+  shell: apt-get update
+
+- name: auto accept oracle jdk license
+  become: true
+  shell: echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
+
+- name: install java8
+  become: true
+  apt:
+    name: oracle-java8-installer
+    state: present
