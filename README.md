@@ -1,4 +1,4 @@
-profile_arsolute-jenkins-master
+software_java8
 =========
 
 This role will be used to set up all the configs and software that normal-login will need.
@@ -25,7 +25,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: xussof.profile_arsolute-jenkins-master }
+         - { role: xussof.software_java8 }
 
 License
 -------
