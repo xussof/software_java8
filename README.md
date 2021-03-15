@@ -25,7 +25,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: xussof.software_java8 }
+         - { role: software_java8 }
 
 License
 -------
@@ -34,4 +34,4 @@ BSD
 
 Author Information
 ------------------
-Made by @xussof
+Made by @sergi-canas
